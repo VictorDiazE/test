@@ -1,0 +1,33 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "frontendtest",
+  "main": "index.js",
+  "scripts": {
+   
+  },
+  "author": "victor",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorDiazE/test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VictorDiazE/test/issues"
+  },
+  "homepage": "https://github.com/VictorDiazE/test#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "boostrap": "^2.0.0",
+    "bootstrap": "^4.4.1",
+    "font-awesome": "^4.7.0",
+    "gulp-autoprefixer": "^7.0.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.1"
+  }
+}

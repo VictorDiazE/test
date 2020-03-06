@@ -1,0 +1,7 @@
+body {
+  background: red; }
+
+body p {
+  color: red;
+  display: flex;
+  flex-direcion: column; }
