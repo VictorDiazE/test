@@ -1,0 +1,34 @@
+
+.contenedor{
+			max-width: 1140px;
+			width: 90%;
+			margin: 20px auto;
+			background-image: url('../img/background.jpg');
+			background-size: cover;
+			display: grid;
+			/*Quitar esto luego, es solo la margen entre las columnas*/
+
+			grid-gap:5px;
+			grid-template-columns: repeat(3, 1fr);
+			grid-template-rows: repeat(3,auto);
+}
+
+.contenedor > div {
+	background: #fff;
+	padding: 20px;
+	border-radius: 4px;
+
+}
+.img1{background-repeat:no-repeat;
+	background-size: contain;
+	text-align:center; 
+	background-image: url(../img/rock.jpg);
+    width: 20%;
+    /* background-color: red; */
+    height: 34em;
+    box-sizing: border-box;
+
+ }
+.backgroundpage{ background-color:  #2c5b5c !important; 
+}
+.

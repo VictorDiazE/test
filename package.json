@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "frontendtest",
   "main": "index.js",
-  "scripts": {
-   
-  },
+  "scripts": {},
   "author": "victor",
   "license": "ISC",
   "repository": {
@@ -18,12 +16,11 @@
   "homepage": "https://github.com/VictorDiazE/test#readme",
   "devDependencies": {
     "browser-sync": "^2.26.7",
-    "gulp": "^4.0.2",
+    "gulp": "^3.9.1",
     "gulp-cli": "^2.2.0",
     "gulp-sass": "^4.0.2"
   },
   "dependencies": {
-    "boostrap": "^2.0.0",
     "bootstrap": "^4.4.1",
     "font-awesome": "^4.7.0",
     "gulp-autoprefixer": "^7.0.1",

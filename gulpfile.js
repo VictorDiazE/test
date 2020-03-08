@@ -3,7 +3,7 @@ const browserSync = require('browser-sync');
 const sass = require ('gulp-sass');
 
 gulp.task('sass', () =>{
-	return gulp.scr([
+	return gulp.src([
 		'node_modules/bootstrap/scss/bootstrap.scss',
 		'src/scss/*.scss'
 	])
@@ -42,8 +42,14 @@ gulp.task('font-awesome', () => {
 });
 
 gulp.task('fonts', () => {
-	return gulp.src('node_modules/font-awesome/fonts/*')
-	.pipe(gulp-dest('src/fonts'));
+	return gulp.src('node_modules/font-awesome/fonts/fonts.css*')
+	.pipe(gulp.dest('src/fonts'));
 });
 
 gulp.task('default', ['js', 'serve', 'font-awesome', 'fonts']);
+gulp.task('watch:es6', () => {
+  return gulp.watch('./src/js/**/*.jsx', gulp.series('es6:react', function (done) {
+    browserSync.reload();
+    done();
+  }));
+});
